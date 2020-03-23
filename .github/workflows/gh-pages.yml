@@ -16,7 +16,10 @@ jobs:
           token: '${{ secrets.GITHUB_TOKEN }}'
           persist-credentials: 'true'
       - name: Initialize git
-        run: git fetch
+        run: |
+          git fetch
+          git config user.name 'Thales OSS'
+          git config user.email 'oss@thalesgroup.com'
       - name: Install Pip packages
         run: pip --cache-dir .pip install -r ./requirements.txt
       - name: Publish website
