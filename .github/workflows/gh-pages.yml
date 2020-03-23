@@ -1,0 +1,21 @@
+name: Deploy GitHub pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: [ubuntu-latest]
+    container:
+      image: python:latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          persist-credentials: 'true'
+      - name: Install Pip packages
+        run: pip --cache-dir .pip install -r ./requirements.txt
+      - name: Publish website
+        run:  mkdocs gh-deploy --remote-branch master -v
