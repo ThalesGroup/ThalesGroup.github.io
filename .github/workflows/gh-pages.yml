@@ -1,4 +1,4 @@
-name: Deploy GitHub pages
+name: GitHub pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - site
 
 jobs:
-  build:
+  Deploy:
     runs-on: [ubuntu-latest]
     container:
       image: python:latest
