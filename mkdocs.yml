@@ -9,7 +9,9 @@ repo_name: 'ThalesGroup'
 repo_url: 'https://github.com/ThalesGroup'
 
 # Copyright
-copyright: 'Copyright &copy; 2020 Thales'
+copyright: |
+  Copyright &copy; YEAR Thales<br>
+  Built from <a href="https://github.com/ThalesGroup/ThalesGroup.github.io/commit/GIT_LHASH/">GIT_SHASH</a>
 
 # Configuration
 theme:
