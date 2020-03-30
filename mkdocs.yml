@@ -24,10 +24,8 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-
-nav:
-  - Home: index.md
-  - About: about.md
+  feature:
+    tabs: true
 
 # Customization
 extra:
