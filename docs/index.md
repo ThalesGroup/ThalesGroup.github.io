@@ -1,11 +1,10 @@
-# Welcome to Thales Open Source Communities
+#
+
+## Welcome to Thales Open Source
 
 ![Thales](images/thalesBanner.png)
 
-# Open source in Thales
+## Open source at Thales
 
-# Projects
-
-# Contributing 
-
+## Contributing 
 
