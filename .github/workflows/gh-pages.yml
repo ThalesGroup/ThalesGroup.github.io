@@ -1,0 +1,34 @@
+name: GitHub pages
+
+on:
+  push:
+    branches:
+      - site
+
+jobs:
+  Deploy:
+    runs-on: [ubuntu-latest]
+    container:
+      image: python:latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          persist-credentials: 'true'
+      - name: Initialize git
+        run: |
+          git fetch
+          git config user.name 'Thales OSS'
+          git config user.email 'oss@thalesgroup.com'
+      - name: Install Pip packages
+        run: pip --cache-dir .pip install -r ./requirements.txt
+      - name: Update variables
+        run: |
+          export YEAR=$(date +"%Y")
+          export GIT_LHASH=$(git rev-parse HEAD)
+          export GIT_SHASH=$(git rev-parse --short HEAD)
+          sed -i "s/YEAR/$YEAR/g" mkdocs.yml
+          sed -i "s/GIT_LHASH/$GIT_LHASH/g" mkdocs.yml
+          sed -i "s/GIT_SHASH/$GIT_SHASH/g" mkdocs.yml
+      - name: Publish website
+        run:  mkdocs gh-deploy --remote-branch master -v

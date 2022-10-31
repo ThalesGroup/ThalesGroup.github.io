@@ -1,0 +1,33 @@
+# Project information
+site_name: 'Thales Open Source Communities'
+site_description: 'Thales Open Source Communities description'
+site_author: 'Thales'
+site_url: 'https://thalesgroup.github.io/'
+
+# Repository
+repo_name: 'ThalesGroup'
+repo_url: 'https://github.com/ThalesGroup'
+
+# Copyright
+copyright: |
+  Copyright &copy; 2022 THALES<br>
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  features:
+     - navigation.tabs
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - icon: 'fontawesome/brands/github-alt'
+      link: 'https://github.com/ThalesGroup'
