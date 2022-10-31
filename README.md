@@ -18,4 +18,3 @@ It relies on https://www.mkdocs.org/ and consists of several markdown files that
 1. Open a web browser at http://localhost:8000
 1. Browse and test the documentation structure, navigation and content
 1. Commit your local modifications and open a pull request against the `site` branch
-

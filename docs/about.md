@@ -1,5 +1,10 @@
+---
+hide:
+  - navigation
+  - toc
+---
 # About 
 
-Thales SA copyright 2020
+Copyright © 2022 THALES
 
 Contact : [oss@thalesgroup.com](mailto:oss@thalesgroup.com)

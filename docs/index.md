@@ -1,10 +1,16 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 ![Thales](images/Thales_OSS_banner.png)
 
 ## Open source at Thales
 
 Open Source Software & Hardware are major concerns for Thales, we want to foster collaborations between the actors of these communities through this [GitHub organization](https://github.com/thalesgroup).
  
-Please browse some of the [projects](projects/index.md) available for further details.
+Please browse some of the [projects](projects.md) available for further details.
  
 ## Contributing 
 

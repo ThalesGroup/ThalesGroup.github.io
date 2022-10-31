@@ -10,13 +10,11 @@ repo_url: 'https://github.com/ThalesGroup'
 
 # Copyright
 copyright: |
-  Copyright &copy; YEAR Thales<br>
-  Built from <a href="https://github.com/ThalesGroup/ThalesGroup.github.io/commit/GIT_LHASH/">GIT_SHASH</a>
+  Copyright &copy; 2022 THALES<br>
 
 # Configuration
 theme:
   name: 'material'
-  logo: 'images/Thales-OSS.png'
   language: 'en'
   palette:
     primary: 'indigo'
@@ -24,16 +22,12 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  feature:
-    tabs: true
+  features:
+     - navigation.tabs
 
 # Customization
 extra:
   manifest: 'manifest.webmanifest'
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/ThalesGroup'
-    - type: 'twitter'
-      link: 'https://twitter.com/thalesgroup'
-    - type: 'linkedin'
-      link: 'https://www.linkedin.com/company/thales'
