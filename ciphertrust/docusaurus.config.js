@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'CipherTrust Learn',
   tagline: 'Data Protection in Minutes',
-  url: 'https://ciphertrust-io.vercel.app',
+  url: 'https://snpranav.github.io/thalesgroup.github.io/ciphertrust',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'snpranav', // Usually your GitHub org/user name.
-  projectName: 'ciphertrust-io', // Usually your repo name.
+  projectName: 'thalesgroup.github.io', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
