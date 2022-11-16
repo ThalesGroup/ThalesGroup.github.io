@@ -71,6 +71,9 @@ In just a few clicks you can setup key rotation which will rotate your keys ever
 
 Luckily, it’s easy to implement in 3 simple steps. Here’s a tutorial I made that demos connecting CipherTrust Manager to my AWS KMS (Key Management Service) account and encrypt my AWS managed services such as S3 and RDS.
 
+import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
+
+<YoutubeEmbed embedId="9Cs9s7DpJFU" />
 
 Now go ahead and encrypt all your cloud-managed services using this hybrid BYOK approach!
 
