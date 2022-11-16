@@ -12,7 +12,7 @@ Get started with CipherTrust Manager Community Edition on Azure you must first d
 
 import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
 
-<YoutubeEmbed embedId="q6jNmuq1ZUY" />
+<YoutubeEmbed embedId="q6jNmuq1ZUY" github="https://github.com/thalescpl-io/CipherTrust_Manager/" />
 
 ### Pre-requisite Installations
 You need to install the following packages to follow along with this tutorial.

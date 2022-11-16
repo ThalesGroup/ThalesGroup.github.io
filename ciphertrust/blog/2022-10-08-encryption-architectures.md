@@ -58,10 +58,8 @@ You’re in luck 🙌 because I have a tutorial showing you how to easily implem
 In this tutorial, I have used [CipherTrust Manager](https://ciphertrust.io/)’s Data Protection Gateway product which is extremely easy to set up and free to start using👇
 
 import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
-import GroupButtons from '@site/src/components/VideoButtons/GroupButtons';
 
-<YoutubeEmbed embedId="EJun5McPRGY" />
-<GroupButtons href="https://github.com/snpranav/data-encryption-in-transit-demo" demourl="https://main-yak.sneakpeak.dev/" />
+<YoutubeEmbed embedId="EJun5McPRGY" github="https://github.com/snpranav/data-encryption-in-transit-demo" demourl="https://main-yak.sneakpeak.dev/" />
 
 ---
 

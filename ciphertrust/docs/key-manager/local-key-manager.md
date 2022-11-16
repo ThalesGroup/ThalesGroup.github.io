@@ -6,4 +6,4 @@ sidebar_position: 1
 
 Start storing and managing your keys directly from the CipherTrust Manager CE
 
-## Under Construction 👷🚧
+## Under Construction 👷🚧 Coming Soon!
