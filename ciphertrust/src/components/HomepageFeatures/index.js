@@ -1,12 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const FeatureList = [
   {
     title: 'Data In-Transit (using Data Protection Gateway)',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    Img: "/img/screenshot-ciphertrust-manager-key-management.png",
+    Img: "img/screenshot-ciphertrust-manager-key-management.png",
     description: (
       <>
         Learn how CipherTrust with the Data Protection Gateway (DPG) connector can keep data in transit secure without the need to edit application source code.
@@ -16,7 +17,7 @@ const FeatureList = [
   {
     title: 'CipherTrust Transparent Encryption for Kubernetes (CTE for K8’s)',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    Img: "/img/screenshot-transparent-encyption1.png",
+    Img: "img/screenshot-transparent-encyption1.png",
     description: (
       <>
         See how to quickly encrypt data on the client side and upload it to your favorite cloud storage provider without worrying about cloud key management solutions.
@@ -26,7 +27,7 @@ const FeatureList = [
   {
     title: 'Centralize Management of Keys and Policies',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    Img: "/img/screenshot-ciphertrust-manager-key-management.png",
+    Img: "img/screenshot-ciphertrust-manager-key-management.png",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -37,11 +38,13 @@ const FeatureList = [
 ];
 
 function Feature({ Img, Svg, title, description }) {
+  const { siteConfig } = useDocusaurusContext();
+
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         {Img ?
-          <img src={Img}></img>
+          <img src={`${siteConfig.baseUrl}${Img}`}></img>
           :
           <Svg className={styles.featureSvg} role="img" />
         }
