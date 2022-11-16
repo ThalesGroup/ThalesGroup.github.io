@@ -9,6 +9,7 @@ It relies on https://www.mkdocs.org/ and consists of several markdown files that
 
 # Updating content procedure
 
+
 1. Clone the repository and checkout the `main` branch
 1. Install mkdocs : https://www.mkdocs.org/#installation
 1. Install the material theme: `pip install mkdocs-material`

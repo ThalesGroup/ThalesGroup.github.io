@@ -1,0 +1,8 @@
+{
+  "label": "Deploy CipherTrust Platform",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Deploy CipherTrust Manager in under 5 minutes on any cloud platform."
+  }
+}

@@ -1,0 +1,34 @@
+name: ci 
+on:
+  push:
+    branches:
+      - main
+jobs:
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: actions/setup-node@v3
+        with:
+          python-version: 3.x
+          node-version: 18
+
+      - name: Install Dependencies for Docusaurus
+        working-directory: ciphertrust
+        run: yarn install --frozen-lockfile
+      - name: Build Docusaurus
+        working-directory: ciphertrust
+        run: yarn build
+
+      - run: pip install -r requirements.txt
+      - run: mkdocs build
+      - run: mkdir site/ciphertrust/ && mv ./ciphertrust/build/* site/ciphertrust/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Build output to publish to the `gh-pages` branch:
+          publish_dir: ./site
