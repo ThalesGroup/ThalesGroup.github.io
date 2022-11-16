@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'CipherTrust Learn',
   tagline: 'Data Protection in Minutes',
-  url: 'https://snpranav.github.io/thalesgroup.github.io/ciphertrust',
-  baseUrl: '/',
+  url: 'https://snpranav.github.io',
+  baseUrl: '/thalesgroup.github.io/ciphertrust/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
