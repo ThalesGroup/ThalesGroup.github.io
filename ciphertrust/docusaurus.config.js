@@ -9,7 +9,7 @@ const config = {
   title: 'CipherTrust Learn',
   tagline: 'Data Protection in Minutes',
   url: 'https://snpranav.github.io',
-  baseUrl: '/Thalesgroup.github.io/ciphertrust/',
+  baseUrl: '/ThalesGroup.github.io/ciphertrust/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
