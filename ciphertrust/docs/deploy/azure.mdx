@@ -1,0 +1,40 @@
+---
+sidebar_position: 1
+---
+# Azure
+
+Deploy CipherTrust Manager CE on Azure in under 5 mins
+
+To get started with CipherTrust Manager Community Edition on Azure you must first deploy the server from the Azure cloud marketplace either using [Terraform](##using-terraform) or directly through the [Azure Web Console](##web-ui)
+
+## Using Terraform
+
+import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
+
+<YoutubeEmbed embedId="2lS4n_mSt2w" github="https://github.com/thalescpl-io/CipherTrust_Manager/" />
+
+### Pre-requisite Installations
+You need to install the following packages to follow along with this tutorial.
+* [Git](https://gitscm.org)
+* [Terraform CLI](https://terraform.io/downloads)
+* [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+
+```bash title="Terminal"
+git clone https://github.com/thalescpl-io/CipherTrust_Manager.git
+cd CipherTrust_Manager/orchestrators/terraform/azure/
+```
+
+### 2. Login to Azure CLI
+```bash title="Terminal"
+az login
+```
+
+### 3. Initialize Terraform Modules
+```bash title="Terminal"
+terraform init
+```
+
+### 4. Plan and Apply Terraform Configurations
+```bash title="Terminal"
+terraform apply
+```

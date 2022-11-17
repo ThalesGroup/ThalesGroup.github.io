@@ -1,0 +1,3 @@
+[submodule "docs/ciphertrust"]
+	path = docs/ciphertrust
+	url = https://github.com/snpranav/ciphertrust-io.git

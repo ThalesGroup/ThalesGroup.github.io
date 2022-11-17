@@ -1,0 +1,90 @@
+---
+sidebar_position: 1
+---
+
+# Client Side Object Storage Encryption for S3
+
+Encrypt your files on the client side before sending them to your S3 buckets with just 3 blocks of code.
+
+import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
+import GroupButtons from '@site/src/components/VideoButtons/GroupButtons';
+
+<YoutubeEmbed embedId="fI0qZB5YB5g" github="https://github.com/snpranav/object-storage-encryption-demo" demourl="https://moral-fox.sneakpeak.dev" />
+
+
+## Step 1: Authenticate with CipherTrust Manager
+```jsx title="/api/get-jwt.js"
+// `createJWT` is a helper function that creates a JWT.
+// This function must only called on the server. 
+// If you call it on the client-side you will expose your username and password in every request. DO NOT DO THIS. Just use it in a server-side API call.
+async function createJWT() {
+    const response = await axios.post(
+        `${process.env.CTM_URL}/api/v1/auth/tokens`,
+        {
+            username: process.env.CTM_USERNAME,        // Add CipherTrust manager username to environment
+            password: process.env.CTM_PASSWORD,        // Add CipherTrust manager password to environment
+        }
+    ).catch(err => {
+        console.error(err);
+        // res.status(502).send(err.toString());
+    });
+
+    const token = response.data.jwt;
+
+    return token
+}
+```
+
+:::info
+
+Remember to replace `process.env.CTM_USERNAME` and `process.env.CTM_PASSWORD` with your CipherTrust Manager username and password.
+
+:::
+
+## Step 2: Encrypt Data using CipherTrust Manager API
+
+```jsx title="/api/encrypt.js"
+async function encryptData(file, jwt) {
+    const fileBase64 = (await getBase64(file)).split(",")[1];
+    const cipherText = await axios.post(
+        // We are using an encrypt proxy because calling the API from the browser will cause a CORS error. The encrypt proxy will point your API request to the Ciphertrust manager Crypto API.
+        `/api/encrypt-proxy`, {
+            id: "s3-encrypt-symmetric-key",
+            plaintext: fileBase64,
+            add: "YXV0aGVudGljYXRl"
+        }, {
+            // Pass the JWT as a Bearer token.
+            headers: {
+                Authorization: `Bearer ${jwt}`
+            }
+        }).catch(err => {
+            console.error(err);
+            res.status(502).send(err.toString());
+        });
+
+    return cipherText.data;
+}
+```
+
+*Now you can upload this cipher text to AWS S3, Azure Blob Storage or any other object storage.*
+
+## Step 3: Decrypt Data
+```jsx title="/api/decrypt.js"
+async function decryptData(encryptedData, jwt) {
+    const plainText = await axios.post(
+        `/api/decrypt-proxy`, {
+            ...encryptedData,
+            add: "YXV0aGVudGljYXRl"
+        }, {
+            // Pass the JWT as a Bearer token.
+            headers: {
+                Authorization: `Bearer ${jwt}`
+            }
+        }).catch(err => {
+            console.error(err);
+        });
+
+
+    return plainText.data;
+}
+```
