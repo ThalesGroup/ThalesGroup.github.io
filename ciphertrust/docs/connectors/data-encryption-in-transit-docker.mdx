@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Data Encryption in-Transit in a Docker Deployment
+# Data Protection Gateway
 
 This demo shows how you can use a tool like CipherTrust Data Protection Gateway and do field level data encryption with **no change** to your application's code.
 
@@ -11,7 +11,7 @@ import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
 <YoutubeEmbed embedId="EJun5McPRGY" github="https://github.com/snpranav/data-encryption-in-transit-demo" demourl="https://main-yak.sneakpeak.dev/" />
 
 ## Pre-requisites
-- [Deployed Ciphertrust Manager instance](../../category/deploy-ciphertrust-platform)
+- [Deployed Ciphertrust Manager instance](../category/deploy-ciphertrust-platform)
 
 ## How does it work?
 ### Step 1 - Add side-car container
@@ -41,7 +41,7 @@ Setup [DPG policies](https://thalesdocs.com/ctp/cm/latest/admin/adp_ag/adp-prtcn
 
 This ensures that the proxy takes care of the encryption and decryption and the database finally ONLY gets encrypted data.
 
-![dpg policy example](../img/dpg-policy.png)
+![dpg policy example](img/dpg-policy.png)
 
 ### Step 3 - Sit Back and Relax
 Let CipherTrust Manager do all the magic for you while you focus on building great applications.
