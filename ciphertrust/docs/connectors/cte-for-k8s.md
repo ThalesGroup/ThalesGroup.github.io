@@ -9,3 +9,8 @@ CipherTrust Transparent Encryption for Kubernetes enables protection of sensitiv
 ![CipherTrust Transparent Encryption for Kubernetes Illustration](img/ciphertrust-transparent-encryption-kubernetes-diagram.png)
 
 More Tutorials on Transparent Encryption for Kubernetes coming soon. Meanwhile, stay tuned for updates on our **[community forum](https://supportportal.thalesgroup.com/community)**.
+
+
+import TutorialFooter from '@site/src/components/TutorialFooter';
+
+<TutorialFooter />
