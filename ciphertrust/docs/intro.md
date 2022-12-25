@@ -22,7 +22,7 @@ After deploying CipherTrust Manager, you can immediately start integrate data en
 
 
 ## Some Demos to Check Out
-- [Client Side Object Storage Encryption for AWS S3](key-manager/demos/cs-object-storage)
-- [Data Encryption in-Transit in a Docker Deployment](connectors/demos/data-encryption-in-transit-docker)
+- [Client Side Object Storage Encryption for AWS S3](key-manager/cs-object-storage)
+- [Data Encryption in-Transit in a Docker Deployment](connectors/data-encryption-in-transit-docker)
 
 Go to the next page to learn how to deploy CipherTrust manager on your Cloud Provider.

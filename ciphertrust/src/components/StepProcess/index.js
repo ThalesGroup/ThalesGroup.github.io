@@ -49,7 +49,7 @@ export default function StepProcessComponent() {
                     <h3 className="text-lg font-semibold text-gray-900 text-black">Integrate Connectors and Secure Data</h3>
                     {/* <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 5, 2022</time> */}
                     <p className="text-base font-normal">Use our vast set of connectors to start securing your data seamlessly</p>
-                    <Link href="/docs/connectors/demos/data-encryption-in-transit-docker"><button className="bg-blue-600 p-3 text-white rounded-lg border-none cursor-pointer">Watch Demo</button></Link>
+                    <Link href="/docs/connectors/data-encryption-in-transit-docker"><button className="bg-blue-600 p-3 text-white rounded-lg border-none cursor-pointer">Watch Demo</button></Link>
                 </div>
             </li>
         </ul>
