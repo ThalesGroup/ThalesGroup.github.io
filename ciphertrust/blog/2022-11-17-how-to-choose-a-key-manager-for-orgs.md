@@ -9,11 +9,13 @@ tags: [data-encryption, key-management]
 
 Your company has a ton of daily active users and you have this amazingly efficient architecture to process requests at scale, but your InfoSec team asks you to use a key manager — there are so many out there, which one do you choose?
 
-There are various different types of key managers, but in this post we’ll cover three most common key managers:
+There are various different types of key managers, but in this post, we’ll cover the three most common key managers:
 
-* Cloud Key Managers (Ex — AWS KMS, GCP KMS, Azure Key Vault, etc.)
+* Native Cloud Key Managers (Ex — AWS KMS, GCP KMS, Azure Key Vault, etc.)
 
-* External Key Managers (Ex — Thales CipherTrust Manager, Hashicorp Vault)
+* External Key Managers (Ex — Thales CipherTrust Manager, etc.)
+
+* Hybrid Key Managers (Use the best of both worlds — Cloud managed services and external key managers)
 
 ## First, the literal  key to security — HSMs
 
@@ -43,7 +45,7 @@ Since your cloud provider now hosts and controls your data and encryption keys. 
 
 **✅ Complete Separation of Trust**
 
-When running a product such as CipherTrust Manager or Hashicorp Vault, your architectures are zero-trust by default as 2 different entities have access to either your data or your keys and **NOT both**.
+When running a product such as CipherTrust Manager, your architectures are zero-trust by default as 2 different entities have access to either your data or your keys and **NOT both**.
 
 **❌ Build your own custom integrations**
 
@@ -77,4 +79,4 @@ import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
 
 Now go ahead and encrypt all your cloud-managed services using this hybrid BYOK approach!
 
-If you have any issues with implementation or questions about data encryption, feel free to leave a comment, tweet [@snpranav](https://twitter.com/snpranav), or raise a [GitHub issue](https://github.com/snpranav/data-encryption-in-transit-demo/issues/new) :)
+If you have any issues with implementation or questions about data encryption, go to the CipherTrust community and post [a quesiton](https://supportportal.thalesgroup.com/community).

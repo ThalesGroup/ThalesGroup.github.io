@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Community',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://supportportal.thalesgroup.com/community',
               },
               {
                 label: 'Twitter',

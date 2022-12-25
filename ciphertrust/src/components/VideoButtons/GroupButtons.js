@@ -5,7 +5,9 @@ import ViewDemoButton from "./ViewDemoButton";
 
 const GroupButtons = ({href, demourl}) => (
         <div className="flex flex-row justify-between">
-            <GithubButton href={href} />
+            {href ?
+                <GithubButton href={href} />
+            : <></> }
             {demourl ?
                 <ViewDemoButton href={demourl} />
             : <></>}

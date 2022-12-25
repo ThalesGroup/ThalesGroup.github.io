@@ -39,3 +39,7 @@ terraform init
 ```bash title="Terminal"
 terraform apply
 ```
+
+import TutorialFooter from '@site/src/components/TutorialFooter';
+
+<TutorialFooter />
