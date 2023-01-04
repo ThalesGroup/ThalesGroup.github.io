@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            `https://github.com/snpranav/ThalesGroup.github.io/tree/main/ciphertrust/`,
+            `https://github.com/thalesgroup/ThalesGroup.github.io/tree/main/ciphertrust/`,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            `https://github.com/snpranav/ThalesGroup.github.io/tree/main/ciphertrust/`,
+            `https://github.com/thalesgroup/ThalesGroup.github.io/tree/main/ciphertrust/`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,7 +71,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/snpranav/ciphertrust-io',
+            href: 'https://github.com/thalesgroup/ThalesGroup.github.io/tree/main/ciphertrust/',
             label: 'GitHub',
             position: 'right',
           },
