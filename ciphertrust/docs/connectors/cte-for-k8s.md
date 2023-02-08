@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# CipherTrust Transparent Encryption for Kubernetes
+# Transparent Encryption for Kubernetes
 
-CipherTrust Transparent Encryption for Kubernetes enables protection of sensitive data on persistent volumes via encryption, user and process-based access controls, and data access logging. This solution enables developers to establish security controls inside of containers. With this extension for CipherTrust Transparent Encryption, data protection can be applied on a per-container basis, both to data inside of containers and to external storage accessible from containers.
+Transparent Encryption for Kubernetes enables protection of sensitive data on persistent volumes via encryption, user and process-based access controls, and data access logging. This solution enables developers to establish security controls inside of containers. With this extension for CipherTrust Transparent Encryption, data protection can be applied on a per-container basis, both to data inside of containers and to external storage accessible from containers.
 
 ![CipherTrust Transparent Encryption for Kubernetes Illustration](img/ciphertrust-transparent-encryption-kubernetes-diagram.png)
 
