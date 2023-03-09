@@ -59,10 +59,10 @@ In this tutorial, I have used [CipherTrust Manager](https://ciphertrust.io/)’s
 
 import YoutubeEmbed from '@site/src/components/YoutubeEmbed';
 
-<YoutubeEmbed embedId="EJun5McPRGY" github="https://github.com/snpranav/data-encryption-in-transit-demo" demourl="https://main-yak.sneakpeak.dev/" />
+<YoutubeEmbed embedId="EJun5McPRGY" github="https://github.com/ThalesGroup/learn-ciphertrust/tree/main/learn/dpg/data-encryption-in-transit-docker" demourl="https://main-yak.sneakpeak.dev/" />
 
 ---
 
 Now go ahead and encrypt data in-transit from all your applications using side-car containers.
 
-If you have any issues with implementation or questions about data encryption in-transit, feel free to leave a comment, tweet [@snpranav](https://twitter.com/snpranav), or raise a [GitHub issue](https://github.com/snpranav/data-encryption-in-transit-demo/issues/new) :)
+If you have any issues with implementation or questions about data encryption in-transit, feel free to leave a comment, tweet [@snpranav](https://twitter.com/snpranav), or raise a [GitHub issue](https://github.com/ThalesGroup/learn-ciphertrust/issues/new) :)
