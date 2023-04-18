@@ -1331,6 +1331,29 @@
     url-loader "^4.1.1"
     webpack "^5.73.0"
 
+"@docusaurus/mdx-loader@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/mdx-loader/-/mdx-loader-2.4.0.tgz#c6310342904af2f203e7df86a9df623f86840f2d"
+  integrity sha512-GWoH4izZKOmFoC+gbI2/y8deH/xKLvzz/T5BsEexBye8EHQlwsA7FMrVa48N063bJBH4FUOiRRXxk5rq9cC36g==
+  dependencies:
+    "@babel/parser" "^7.18.8"
+    "@babel/traverse" "^7.18.8"
+    "@docusaurus/logger" "2.4.0"
+    "@docusaurus/utils" "2.4.0"
+    "@mdx-js/mdx" "^1.6.22"
+    escape-html "^1.0.3"
+    file-loader "^6.2.0"
+    fs-extra "^10.1.0"
+    image-size "^1.0.1"
+    mdast-util-to-string "^2.0.0"
+    remark-emoji "^2.2.0"
+    stringify-object "^3.3.0"
+    tslib "^2.4.0"
+    unified "^9.2.2"
+    unist-util-visit "^2.0.3"
+    url-loader "^4.1.1"
+    webpack "^5.73.0"
+
 "@docusaurus/module-type-aliases@2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.1.0.tgz#322f8fd5b436af2154c0dddfa173435730e66261"
@@ -1644,6 +1667,28 @@
     joi "^17.6.0"
     js-yaml "^4.1.0"
     tslib "^2.4.0"
+
+"@docusaurus/utils@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.4.0.tgz#fdf0c3545819e48bb57eafc5057495fd4d50e900"
+  integrity sha512-89hLYkvtRX92j+C+ERYTuSUK6nF9bGM32QThcHPg2EDDHVw6FzYQXmX6/p+pU5SDyyx5nBlE4qXR92RxCAOqfg==
+  dependencies:
+    "@docusaurus/logger" "2.4.0"
+    "@svgr/webpack" "^6.2.1"
+    escape-string-regexp "^4.0.0"
+    file-loader "^6.2.0"
+    fs-extra "^10.1.0"
+    github-slugger "^1.4.0"
+    globby "^11.1.0"
+    gray-matter "^4.0.3"
+    js-yaml "^4.1.0"
+    lodash "^4.17.21"
+    micromatch "^4.0.5"
+    resolve-pathname "^3.0.0"
+    shelljs "^0.8.5"
+    tslib "^2.4.0"
+    url-loader "^4.1.1"
+    webpack "^5.73.0"
 
 "@docusaurus/utils@2.4.0":
   version "2.4.0"
