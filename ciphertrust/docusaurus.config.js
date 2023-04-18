@@ -136,6 +136,17 @@ const config = {
         },
       };
     },
+    [
+    '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/docs/connectors/data-encryption-in-transit-docker',
+            from: '/docs/connectors/dpg',
+          },
+        ]
+      },
+    ],
   ],
 };
 
