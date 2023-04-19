@@ -52,10 +52,10 @@ So let’s learn how company A uses CipherTrust Manager to keep each team in con
 To delegate responsibilities, the Company A IT team was looking for a multi-tenanted system that can help the department to easily create and assign multiple teams to manage their own security requirements, while remaining isolated from each other. This requirement can be met with Thales CTM by creating a Domain to allow the DevOps team to manage their access control and security needs.
 
 To create a Domain, you first create a user by browsing to **“Access Management -> Users -> Add User“:**
-![Add_User](https:\\ThalesGroup.github.io\ciphertrust\static\img\adduser.webp)
+![Add_User](https://ThalesGroup.github.io\ciphertrust\static\img\adduser.webp)
 
 After you have added the user, apply the user to **CTE Admins and Clients** by going to **Edit/view** the user. Under **Groups**, Search **CTE** and add to **Admin/Client**:
-![CTE_Groups](https:\\ThalesGroup.github.io\ciphertrust\static\img\CTE_Groups.webp)
+![CTE_Groups](https://ThalesGroup.github.io\ciphertrust\static\img\CTE_Groups.webp)
 
 The next step is to browse to “**Admin Settings -> Domains**” and click “**Add Domain**“:
 
@@ -63,20 +63,20 @@ The next step is to browse to “**Admin Settings -> Domains**” and click “*
 * Admins: devops (the user you just created)
 * Choose the default CA
 * Save
-![Add_Domain](https:\\ThalesGroup.github.io\ciphertrust\static\img\Add_Domain.webp)
+![Add_Domain](https://ThalesGroup.github.io\ciphertrust\static\img\Add_Domain.webp)
 
 Now you are ready to logout and then login with the user you just created. After logging in again, change the domain to the new domain at the top right corner – **Switch Domains**:
-![Switch_Domains](https:\\ThalesGroup.github.io\ciphertrust\static\img\switchdomains.webp)
+![Switch_Domains](https://ThalesGroup.github.io\ciphertrust\static\img\switchdomains.webp)
 
 ### Create a Key
 
 To be able to encrypt the data, we must create a key. Creating a key is very simple with CipherTrust Manager, all you need is to browse to the keys at the left menu and press the “**Add key**“. The next step is to provide a Key name: for example we will create a key name: **LDT_Key** and then press”**Add Key**” to save it.
 
 At the next window, expand the “**Key Access**” option. On the search bar, type “**CTE**” with show all groups, then tick the check boxes for all the Admins and Clients permissions. Press **Update**:
-![Key_Access](https:\\ThalesGroup.github.io\ciphertrust\static\img\keyaccess.webp)
+![Key_Access](https://ThalesGroup.github.io\ciphertrust\static\img\keyaccess.webp)
 
 Next, browse to “**Key Labels -> CTE**“. Choose **CBC** from the drop down menu”. Press **Update**:
-![Key_Label](https:\\ThalesGroup.github.io\ciphertrust\static\img\keylabel.webp)
+![Key_Label](https://ThalesGroup.github.io\ciphertrust\static\img\keylabel.webp)
 
 ### Install the Transparent Encryption Agent
 
@@ -85,7 +85,7 @@ To be able to install and use the Transparent Encryption feature, you must insta
 * Provide a Name Prefix: on my case DevOps_Token
 * Local CA: choose the default
 * Create a token: Base64
-![Create_Token](https:\\ThalesGroup.github.io\ciphertrust\static\img\Createtoken.webp)
+![Create_Token](https://ThalesGroup.github.io\ciphertrust\static\img\Createtoken.webp)
 
 Copy the token; then go to your Windows or Linux machine to run the agent installation. During the installation, you will be asked to provide:
 
@@ -95,7 +95,7 @@ Copy the token; then go to your Windows or Linux machine to run the agent instal
 * Token
 
 After the installation is completed and you have successfully rebooted, you will be able to see the registered client on your CipherTrust Manager under: **Transparent Encryption -> Clients**:
-![CTE_Client](https:\\ThalesGroup.github.io\ciphertrust\static\img\CTE_Client.webp)
+![CTE_Client](https://ThalesGroup.github.io\ciphertrust\static\img\CTE_Client.webp)
 
 Creating Policies:
 
@@ -143,14 +143,14 @@ As we have different teams and policies, each with different access, we must cre
 * Create
 
 Note: repeat for each team and select the appropriate directory
-![Create_GuardPoint](https:\\ThalesGroup.github.io\ciphertrust\static\img\createguardpoint.webp)
+![Create_GuardPoint](https://ThalesGroup.github.io\ciphertrust\static\img\createguardpoint.webp)
 
 After all the directories are assigned to a group – on each GuardPoint – press the policy name and add the right action for each team as shown below; for example:
 
 * Development_Team can access, and apply key
 * Operation_Team no access
 * Admin_Team access but no key
-![DevOps_Permission_Group](https:\\ThalesGroup.github.io\ciphertrust\static\img\devops_permission_group.webp)
+![DevOps_Permission_Group](https://ThalesGroup.github.io\ciphertrust\static\img\devops_permission_group.webp)
 
 Note: repeat for all other GuardPoints
 
