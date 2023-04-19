@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[4492],{6138:s=>{s.exports=JSON.parse('{"label":"data-security","permalink":"/ciphertrust/blog/tags/data-security","allTagsPath":"/ciphertrust/blog/tags","count":1}')}}]);
