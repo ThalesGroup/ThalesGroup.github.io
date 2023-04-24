@@ -6,7 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 const FeatureList = [
   {
     title: 'Data In-Transit (using Data Protection Gateway)',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     Img: "img/screenshot-ciphertrust-manager-key-management.png",
     description: (
       <>
@@ -16,7 +15,6 @@ const FeatureList = [
   },
   {
     title: 'CipherTrust Transparent Encryption for Kubernetes (CTE for K8’s)',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     Img: "img/screenshot-transparent-encyption1.png",
     description: (
       <>
@@ -26,7 +24,6 @@ const FeatureList = [
   },
   {
     title: 'Centralize Management of Keys and Policies',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     Img: "img/screenshot-ciphertrust-manager-key-management.png",
     description: (
       <>
