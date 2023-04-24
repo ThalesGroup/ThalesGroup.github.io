@@ -76,7 +76,7 @@ At the next window, expand the “**Key Access**” option. On the search bar, t
 ![Key_Access](img/keyaccess.webp)
 
 Next, browse to “**Key Labels -> CTE**“. Choose **CBC** from the drop down menu”. Press **Update**:
-![Key_Label](img/keylabel.webp)
+![Key_Label](img/Keylable.webp)
 
 ### Install the Transparent Encryption Agent
 
