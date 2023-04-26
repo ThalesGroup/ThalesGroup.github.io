@@ -85,7 +85,7 @@ To be able to install and use the Transparent Encryption feature, you must insta
 * Provide a Name Prefix: on my case DevOps_token
 * Local CA: choose the default
 * Create a token: Base64
-![Create_Token](img/Createtoken.webp)
+![Create_Token](img/createToken.webp)
 
 Copy the token; then go to your Windows or Linux machine to run the agent installation. During the installation, you will be asked to provide:
 
