@@ -1,5 +1,5 @@
 ---
-slug: Data Security in DevOps
+slug: Data-Security-in-DevOps
 title: Data Security without DevOps Disruption
 authors: hal
 tags: [data-encryption, devops, data-security]
