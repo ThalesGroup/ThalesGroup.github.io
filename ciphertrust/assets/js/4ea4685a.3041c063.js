@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[5904],{7150:s=>{s.exports=JSON.parse('{"label":"Azure","permalink":"/ciphertrust/blog/tags/azure","allTagsPath":"/ciphertrust/blog/tags","count":1}')}}]);
