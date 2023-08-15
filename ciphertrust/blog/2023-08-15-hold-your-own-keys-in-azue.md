@@ -52,6 +52,6 @@ Operational Sovereignty
 CCKM helps organizations to control their digital sovereignty across major public and government clouds including Microsoft Azure, Azure Government, Amazon Web Services, Google Cloud, Oracle Cloud, Salesforce and SAP. The solution enables you to run in different environments to support a strong business continuity plan. CCKM can provide an organization with a holistic view of where all key workloads and sensitive data are located.
 
 Free Trial
-Try [Data Protection On Demand - 30-Day Free Evaluation](https://cpl.thalesgroup.com/encryption/data-protection-on-demand/marketplace)
+Try [**Data Protection On Demand - 30-Day Free Evaluation!**](https://cpl.thalesgroup.com/encryption/data-protection-on-demand/marketplace)
 
-For more information see the [Product Brief](https://cpl.thalesgroup.com/resources/encryption/microsoft-azure-advanced-data-protection-solution-brief) and [Solution Brief](https://cpl.thalesgroup.com/resources/encryption/cloud-key-management-ms-azure-solution-brief)
+For more information see the [**Product Brief**](https://cpl.thalesgroup.com/resources/encryption/microsoft-azure-advanced-data-protection-solution-brief) and [**Solution Brief**](https://cpl.thalesgroup.com/resources/encryption/cloud-key-management-ms-azure-solution-brief).
