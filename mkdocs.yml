@@ -1,16 +1,13 @@
 # Project information
-site_name: 'Thales Open Source Communities'
-site_description: 'Thales Open Source Communities description'
+site_name: 'Thales Open Source'
+site_description: 'Thales Open Source'
 site_author: 'Thales'
 site_url: 'https://thalesgroup.github.io/'
 
-# Repository
-repo_name: 'ThalesGroup'
-repo_url: 'https://github.com/ThalesGroup'
 
 # Copyright
 copyright: |
-  Copyright &copy; 2022 THALES<br>
+  Copyright &copy; 2023 THALES<br>
 
 # Configuration
 theme:
