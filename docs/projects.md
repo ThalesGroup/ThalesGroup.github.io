@@ -14,3 +14,4 @@ hide:
 | | miniapps | helm | [https://thalesgroup.github.io/miniapps/](https://thalesgroup.github.io/miniapps/) |
 | ![logo](/images/CDSP-infinity-shot.png) | ciphertrust | CipherTrust<br>Manager | [https://thalesgroup.github.io/ciphertrust/](https://thalesgroup.github.io/ciphertrust/) |
 | ![logo](/images/project-icons/t-keir.png) | t-keir | Thales Knowledge Extraction to Information Retrieval | [https://thalesgroup.github.io/t-keir/](https://thalesgroup.github.io/t-keir/) |
+| ![logo](https://github.com/ThalesGroup/xsmp-modeler-core/blob/main/logo/xsmp.svg) | XSMP | XSMP Modeler Core | [https://xsmp-modeler.readthedocs.io/en/latest/](https://xsmp-modeler.readthedocs.io/en/latest/) |
