@@ -5,6 +5,6 @@ hide:
 ---
 # About 
 
-Copyright © 2023 THALES
+Copyright © 2024 THALES
 
 Contact : [oss@thalesgroup.com](mailto:oss@thalesgroup.com)
