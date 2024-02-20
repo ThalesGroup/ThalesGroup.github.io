@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[8306],{6723:s=>{s.exports=JSON.parse('{"label":"devops","permalink":"/ciphertrust/blog/tags/devops","allTagsPath":"/ciphertrust/blog/tags","count":3}')}}]);
